@@ -11,46 +11,46 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-4 sm:p-[15px]">
         <div className="w-full flex flex-col items-center justify-center m-auto">
-            <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
+            <div className="w-full h-full flex flex-col sm:flex-row items-center justify-around flex-wrap gap-6 sm:gap-4">
                 
 
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Contact</div>
-                    <a href="tel:+917488804979" className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">+91-7488804979</span>    
+                <div className="w-full sm:min-w-[200px] sm:max-w-[250px] h-auto flex flex-col items-center justify-start">
+                    <div className="font-bold text-sm sm:text-base mb-2 sm:mb-0">Contact</div>
+                    <a href="tel:+917488804979" className="flex flex-row items-center my-2 sm:my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
+                        <span className="text-xs sm:text-sm md:text-[15px] break-all text-center">+91-7488804979</span>    
                     </a>
-                    <a href="mailto:anweerathour9@gmail.com" className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">anweerathour9@gmail.com</span>    
-                    </a>
-                </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Social Media</div>
-                    <a href="https://linkedin.com/in/byteom" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxLinkedinLogo />
-                        <span className="text-[15px] ml-[6px]">LinkedIn</span>    
-                    </a>
-                    <a href="https://github.com/byteom" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">GitHub</span>    
+                    <a href="mailto:anweerathour9@gmail.com" className="flex flex-row items-center my-2 sm:my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
+                        <span className="text-xs sm:text-sm md:text-[15px] break-all text-center">anweerathour9@gmail.com</span>    
                     </a>
                 </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">About</div>
-                   <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">Full Stack Developer</span>    
+                <div className="w-full sm:min-w-[200px] sm:max-w-[250px] h-auto flex flex-col items-center justify-start">
+                    <div className="font-bold text-sm sm:text-base mb-2 sm:mb-0">Social Media</div>
+                    <a href="https://linkedin.com/in/byteom" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-2 sm:my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
+                        <RxLinkedinLogo className="w-4 h-4 sm:w-5 sm:h-5" />
+                        <span className="text-xs sm:text-sm md:text-[15px] ml-2 sm:ml-[6px]">LinkedIn</span>    
+                    </a>
+                    <a href="https://github.com/byteom" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-2 sm:my-[15px] cursor-pointer hover:text-purple-400 transition-colors">
+                        <RxGithubLogo className="w-4 h-4 sm:w-5 sm:h-5" />
+                        <span className="text-xs sm:text-sm md:text-[15px] ml-2 sm:ml-[6px]">GitHub</span>    
+                    </a>
+                </div>
+                <div className="w-full sm:min-w-[200px] sm:max-w-[250px] h-auto flex flex-col items-center justify-start">
+                    <div className="font-bold text-sm sm:text-base mb-2 sm:mb-0">About</div>
+                   <p className="flex flex-row items-center my-2 sm:my-[15px]">
+                        <span className="text-xs sm:text-sm md:text-[15px] text-center">Full Stack Developer</span>    
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">Cloud Engineer</span>    
+                    <p className="flex flex-row items-center my-2 sm:my-[15px]">
+                        <span className="text-xs sm:text-sm md:text-[15px] text-center">Cloud Engineer</span>    
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">Certifyo | Jan 2025 - Present</span>    
+                    <p className="flex flex-row items-center my-2 sm:my-[15px]">
+                        <span className="text-xs sm:text-sm md:text-[15px] text-center">Certifyo | Jan 2025 - Present</span>    
                     </p>
                 </div>
             </div>
 
-            <div className="mb-[20px] text-[15px] text-center">
+            <div className="mb-4 sm:mb-[20px] mt-4 text-xs sm:text-sm md:text-[15px] text-center px-4">
                 &copy; OM SINGH 2025. All rights reserved
             </div>
         </div>

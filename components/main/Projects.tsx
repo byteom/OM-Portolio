@@ -4,15 +4,15 @@ import ProjectCard from "../sub/ProjectCard";
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center py-20 relative z-[30]"
+      className="flex flex-col items-center justify-center py-12 sm:py-16 md:py-20 relative z-[30]"
       id="projects"
       style={{ pointerEvents: 'auto' }}
     >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h1 className="text-3xl sm:text-4xl md:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10 sm:py-16 md:py-20 px-4 text-center">
         My Projects
       </h1>
-      <div className="w-full max-w-5xl mx-auto px-10 relative z-[30]">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 md:px-10 relative z-[30]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
           <ProjectCard
             src="/project0managment.png"
             title="Project Management System"
