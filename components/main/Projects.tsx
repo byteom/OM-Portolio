@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="w-full max-w-5xl mx-auto px-10 relative z-[30]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <ProjectCard
-            src="/NextWebsite.png"
+            src="/project0managment.png"
             title="Project Management System"
             description="Full-stack MERN application with Kanban boards and task management, supporting 50+ concurrent users. Configured infrastructure-as-code using Terraform for AWS EC2, VPC, and RDS. Implemented Ansible playbooks for automated deployment workflows."
             skills="MERN, Terraform, Ansible"
